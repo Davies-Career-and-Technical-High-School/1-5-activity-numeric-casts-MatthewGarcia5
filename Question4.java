@@ -1,9 +1,11 @@
+import java.util.Scanner;
 
-
-class Question4 {
+class Math {
     public static void main(String[] args) {
 
-        /* Write your code here */
-
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Input a double");
+      double x = scan.nextDouble();
+      System.out.println((int) (x + 0.5));
     }
 }
