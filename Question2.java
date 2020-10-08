@@ -1,9 +1,14 @@
+import java.util.Scanner;
 
-
-class Question2 {
+class Math {
     public static void main(String[] args) {
 
-        /* Write your code here */
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Put in a 3 digit number");
+        String x = scan.nextLine();
+        System.out.println(x.charAt(0));
+        System.out.println(x.charAt(1));
+        System.out.println(x.charAt(2));
 
     }
 }
