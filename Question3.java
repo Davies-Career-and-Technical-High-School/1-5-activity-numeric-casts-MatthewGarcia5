@@ -1,9 +1,13 @@
+import java.util.Scanner;
 
-
-class Question3 {
+class Math {
     public static void main(String[] args) {
 
-        /* Write your code here */
-
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Put in a number");
+        double x = scan.nextDouble();
+        System.out.println("Put in another number");
+        double y = scan.nextDouble();
+        System.out.println((x + y) / 2);
     }
 }
