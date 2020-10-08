@@ -1,2 +1,2 @@
-javac 
-java 
+javac Math.java
+java Math
